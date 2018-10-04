@@ -1,0 +1,208 @@
+/*
+General styles
+*/
+body {
+  font: 16px Helvetica, Sans-Serif;
+  line-height: 24px;
+  background: url("../imgs/gray_jean.png");
+  color: #003366;
+}
+
+#wrapper {
+  padding-top: 10%;
+  width: 900px;
+  margin: 40px auto 60px;
+}
+
+h3{
+  font-size: 20px;
+  margin: 0 0 6px 0;
+}
+
+h4 {
+  margin: 0 0 6px 0;
+}
+
+span {
+  float: right;
+  bottom: 0; right: 0;
+  font-style: italic;
+  font-family: Georgia, Serif;
+  font-size: 16px;
+  color: #666;
+  font-weight: normal;
+}
+
+p {
+  margin: 0 0 16px 0;
+}
+
+
+ul {
+  margin: 0 0 32px 17px;
+  list-style: none;
+}
+
+
+/*
+Header styles
+*/
+#headerContent{
+  padding-bottom: 10%;
+}
+
+#mypic{
+  float: right;
+  margin: -35px 0 0 0;
+  width: 200px;
+  height: 270px;
+  transform: rotate(-4deg);
+  border: 2px solid #666;
+
+  /*#CCCC99*/
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  border-bottom: 2px solid #666;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #003366;
+}
+
+#contactList1{
+  float: left;
+  width: 30%;
+}
+
+#contactList2{
+  float: right;
+  width: 30%;
+}
+
+
+/*
+Objective Styles
+*/
+#objectiveContent > *{
+  clear: both;
+}
+
+
+/*
+Experience Styles
+*/
+i{
+  font-style: italic;
+}
+
+
+/*
+Footer Styles
+*/
+#hardskills{
+  float: left;
+  width: 50%;
+}
+
+#softkills{
+  float: right;
+  width: 50%;
+}
+
+
+/*
+Top Styles
+*/
+#top{
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
+
+/*
+Animation Keyframes & General Fade in Styles
+*/
+@-webkit-keyframes fadein{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+#headerContent > *,
+#objectiveContent > *,
+#experienceContent > *,
+#educationContent > *,
+#skillsContent > *{
+  opacity: 0;
+}
+
+#headerContent > *{
+  -webkit-animation: fadein 1s 0.5s forwards;
+}
+#objectiveContent > *{
+  -webkit-animation: fadein 1s 1s forwards;
+}
+
+#experienceContent > *{
+  -webkit-animation: fadein 1s 1.5s forwards;
+}
+#educationContent > *{
+  -webkit-animation: fadein 1s 2s forwards;
+}
+#skillsContent > *{
+  -webkit-animation: fadein 1s 2.5s forwards;
+}
+
+/*
+Animation Keyframes & General slide Left/Right Styles
+*/
+@-webkit-keyframes slideleft {
+    100% { left: 0; }
+}
+
+@-webkit-keyframes slideright {
+    100% { right: 0; }
+}
+
+#headerContent,
+#experienceContent,
+#skillsContent{
+  position: relative;
+  left: -1000px;
+}
+
+#objectiveContent,
+#educationContent{
+  position: relative;
+  right: -1000px;
+}
+
+/*Slide Left Animation*/
+#headerContent{
+  -webkit-animation: slideleft 1s 0.5s forwards;
+}
+#experienceContent{
+  -webkit-animation: slideleft 1s 1.5s forwards;
+}
+#skillsContent{
+  -webkit-animation: slideleft 1s 2.5s forwards;
+}
+
+/*Slide Right Animations*/
+#objectiveContent{
+  -webkit-animation: slideright 1s 1s forwards;
+}
+#educationContent{
+  -webkit-animation: slideright 1s 2s forwards;
+}
+
