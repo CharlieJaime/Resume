@@ -130,6 +130,12 @@ Top Styles
   text-align: center;
 }
 
+#top h4{
+  padding: 2%;
+  background-color: #003366;
+  color: white;
+}
+
 /*
 Animation Keyframes & General Fade in Styles
 */
