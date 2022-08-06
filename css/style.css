@@ -2,21 +2,39 @@
 General styles
 */
 body {
-  font: 16px Helvetica, Sans-Serif;
+  font: 16px Garamond;
   line-height: 24px;
-  background: url("../imgs/gray_jean.png");
-  color: #003366;
+  /* background: url("../imgs/gray_jean.png"); */
+  background-color: black;
+  color: #fff;
 }
 
 #wrapper {
-  padding-top: 10%;
+  padding-top: 30px;
   width: 900px;
   margin: 40px auto 60px;
+}
+
+#contactList1 li,
+#contactList2 lid{
+  font: 14px Helvetica;
+  color: #FFE584;
+}
+
+h1{
+  font: 20px Helvetica;
+  color: #FFE584;
+}
+
+h2{
+  font: 20px Helvetica;
+  color: #FFE584;
 }
 
 h3{
   font-size: 20px;
   margin: 0 0 6px 0;
+  color: #FFE584;
 }
 
 h4 {
@@ -43,6 +61,11 @@ ul {
   list-style: none;
 }
 
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  font: 16px Garamond;
+}
 
 /*
 Header styles
@@ -52,29 +75,27 @@ Header styles
 }
 
 #mypic{
-  float: right;
+  /* float: right;
   margin: -35px 0 0 0;
   width: 200px;
-  height: 270px;
-  transform: rotate(-4deg);
+  height: 200px;
+  transform: rotate(-4deg); */
   border: 2px solid #666;
+  /* border-radius: 100%; */
 
   /*#CCCC99*/
 }
 
 h1 {
-  margin: 0 0 20px 0;
-  padding: 0 0 20px 0;
+  /* margin: 0 0 20px 0; */
+  padding: 0 0 60px 0;
   font-size: 42px;
   font-weight: bold;
   letter-spacing: -2px;
   border-bottom: 2px solid #666;
+  text-align: center;
 }
 
-a {
-  color: #666;
-  text-decoration: none;
-}
 
 a:hover {
   color: #003366;
