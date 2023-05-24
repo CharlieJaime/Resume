@@ -15,13 +15,36 @@ body {
   margin: 40px auto 60px;
 }
 
+#contactList1 li,
+#contactList2 li{
+  font: 14px Helvetica;
+  color: #ffce1e;
+}
+
+h1{
+  font: 20px Helvetica;
+  color: #ffce1e;
+}
+
+h2{
+  font: 20px;
+  color: #ffce1e;
+}
+
 h3{
   font-size: 20px;
   margin: 0 0 6px 0;
+  color: #ffce1e
 }
 
 h4 {
   margin: 0 0 6px 0;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  font: 16px Garamond;
 }
 
 span {
@@ -135,8 +158,9 @@ Top Styles
 }
 
 #top h4{
+  font-size: 30px;
   padding: 2%;
-  background-color: #003366;
+  background-color: #ffce1e;
   color: white;
 }
 
